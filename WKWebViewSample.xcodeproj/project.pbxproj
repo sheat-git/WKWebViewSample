@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672765A62814488D0039DBEA /* WebViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672765A32814488D0039DBEA /* WebViewControllerWrapper.swift */; };
+		672765A72814488D0039DBEA /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672765A42814488D0039DBEA /* WebView.swift */; };
+		672765A82814488D0039DBEA /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672765A52814488D0039DBEA /* WebViewController.swift */; };
 		6747EFEC280A5F90008AB2EB /* WKWebViewSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747EFEB280A5F90008AB2EB /* WKWebViewSampleApp.swift */; };
 		6747EFEE280A5F90008AB2EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6747EFED280A5F90008AB2EB /* ContentView.swift */; };
 		6747EFF0280A5F90008AB2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6747EFEF280A5F90008AB2EB /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		672765A32814488D0039DBEA /* WebViewControllerWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewControllerWrapper.swift; sourceTree = "<group>"; };
+		672765A42814488D0039DBEA /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		672765A52814488D0039DBEA /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		6747EFE8280A5F90008AB2EB /* WKWebViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6747EFEB280A5F90008AB2EB /* WKWebViewSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewSampleApp.swift; sourceTree = "<group>"; };
 		6747EFED280A5F90008AB2EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672765A22814488D0039DBEA /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				672765A32814488D0039DBEA /* WebViewControllerWrapper.swift */,
+				672765A42814488D0039DBEA /* WebView.swift */,
+				672765A52814488D0039DBEA /* WebViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		6747EFDF280A5F90008AB2EB = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +69,7 @@
 			children = (
 				6747EFEB280A5F90008AB2EB /* WKWebViewSampleApp.swift */,
 				6747EFED280A5F90008AB2EB /* ContentView.swift */,
+				672765A22814488D0039DBEA /* Web */,
 				6747EFEF280A5F90008AB2EB /* Assets.xcassets */,
 				6747EFF1280A5F90008AB2EB /* Preview Content */,
 			);
@@ -138,6 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6747EFEE280A5F90008AB2EB /* ContentView.swift in Sources */,
+				672765A72814488D0039DBEA /* WebView.swift in Sources */,
+				672765A62814488D0039DBEA /* WebViewControllerWrapper.swift in Sources */,
+				672765A82814488D0039DBEA /* WebViewController.swift in Sources */,
 				6747EFEC280A5F90008AB2EB /* WKWebViewSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

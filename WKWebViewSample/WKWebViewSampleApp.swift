@@ -2,7 +2,7 @@
 //  WKWebViewSampleApp.swift
 //  WKWebViewSample
 //
-//  Created by 大畑允人 on 2022/04/16.
+//  Created by sheat on 2022/04/16.
 //
 
 import SwiftUI
